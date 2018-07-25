@@ -16,6 +16,7 @@
 
 ### 1. создаем пользователя.
 сылка ``` http://example.com/api/v1/user ``` метод **POST**
+Заголовок: Content-Type: application/json
 
 Тело запроса:
 ```php
@@ -64,7 +65,10 @@
 ## Создание рецепта
 
 сылка ``` http://example.com/api/v1/recipe ``` метод **POST**
-
+Заголовок: 
+``` 
+Content-Type: application/json
+Token: f6fdc3dfe39c6762131930e1028c412ce26533af81a3b7604e32ce1f8430" ```
 Тело запроса:
 ```php
 {
